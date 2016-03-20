@@ -1,20 +1,14 @@
-x = "There are %d types of people." % 10
-binary = "binary"
-do_not = "don't"
-y = "Those who %s and those who %s." % (binary, do_not)
+my_name = "Nick Christiny"
+my_age = 36
+my_height = 67
+my_weight = 170
+my_eyes = 'Brown'
+my_teeth = 'Red'
+my_hair = 'Dark Brown'
 
-print x
-print y
-
-print "I said: %r." % x
-print "I also said: '%s'." % y
-
-hilarious = False
-joke_evaluation = "Isn't that joke so funny?! %r"
-
-print joke_evaluation % hilarious
-
-w = "This is the left side of..."
-e = "a string with a right side."
-
-print w + e
+print "Let's talk about %r." % my_name
+print "He's %d inches tall." % my_height
+print "He's %d pounds heavy." % my_weight
+print "Actually that's not too heavy."
+print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
+print "If I add %d, %d, and %d I get %d." % (my_age, my_height, my_weight, my_age + my_height + my_weight)
